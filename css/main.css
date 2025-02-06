@@ -1070,7 +1070,7 @@ i {
   background: #6F4498;
   position: absolute;
   top: 50%;
-  right: 13px;
+  right: 15px;
   transform: translateY(-50%);
 }
 @media (max-width: 768px) {
