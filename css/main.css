@@ -679,7 +679,7 @@ i {
   display: block;
   width: 40px;
   height: 40px;
-  background: url("/img/ico-daily.png") no-repeat top center/contain;
+  background: url("../img/ico-daily.png") no-repeat top center/contain;
   position: absolute;
   right: 25px;
   bottom: 25px;
@@ -694,7 +694,7 @@ i {
   border-right: none;
 }
 #container #main-visual .inner .mv-menu-bar dl dd ul.menu-bar-cont > li.menu-bar-cont-00:nth-child(2)::after {
-  background: url("/img/ico-search.png") no-repeat top center/contain;
+  background: url("../img/ico-search.png") no-repeat top center/contain;
 }
 #container #main-visual .inner .mv-menu-bar dl dd ul.menu-bar-cont > li.menu-bar-cont-00 a {
   width: 100%;
@@ -793,7 +793,7 @@ i {
   width: 40px;
   height: 40px;
   display: block;
-  background: url("/img/ico-color-bg01.png") no-repeat top center/contain;
+  background: url("../img/ico-color-bg01.png") no-repeat top center/contain;
   position: absolute;
   right: 20px;
   bottom: 20px;
@@ -805,19 +805,19 @@ i {
   background: linear-gradient(141deg, rgb(79, 185, 225) 0%, rgb(64, 191, 128) 100%);
 }
 #container #main-visual .inner .mv-menu-bar dl dd ul.menu-bar-cont > li.menu-bar-cont-03 ul.menu-bar-color-box li:nth-child(2):after {
-  background: url("/img/ico-color-bg02.png") no-repeat top center/contain;
+  background: url("../img/ico-color-bg02.png") no-repeat top center/contain;
 }
 #container #main-visual .inner .mv-menu-bar dl dd ul.menu-bar-cont > li.menu-bar-cont-03 ul.menu-bar-color-box li:nth-child(3) {
   background: linear-gradient(141deg, rgb(164, 91, 235) 0%, rgb(109, 155, 235) 100%);
 }
 #container #main-visual .inner .mv-menu-bar dl dd ul.menu-bar-cont > li.menu-bar-cont-03 ul.menu-bar-color-box li:nth-child(3):after {
-  background: url("/img/ico-color-bg03.png") no-repeat top center/contain;
+  background: url("../img/ico-color-bg03.png") no-repeat top center/contain;
 }
 #container #main-visual .inner .mv-menu-bar dl dd ul.menu-bar-cont > li.menu-bar-cont-03 ul.menu-bar-color-box li:nth-child(4) {
   background: linear-gradient(141deg, rgb(243, 199, 80) 0%, rgb(226, 122, 53) 100%);
 }
 #container #main-visual .inner .mv-menu-bar dl dd ul.menu-bar-cont > li.menu-bar-cont-03 ul.menu-bar-color-box li:nth-child(4):after {
-  background: url("/img/ico-color-bg04.png") no-repeat top center/contain;
+  background: url("../img/ico-color-bg04.png") no-repeat top center/contain;
 }
 #container #main-visual .inner .mv-menu-bar dl dd ul.menu-bar-cont > li.menu-bar-cont-03 ul.menu-bar-color-box li a {
   width: 100%;
@@ -887,7 +887,7 @@ i {
   width: 40px;
   height: 40px;
   display: block;
-  background: url("/img/ico-color-bg01.png") no-repeat top center/contain;
+  background: url("../img/ico-color-bg01.png") no-repeat top center/contain;
   position: absolute;
   right: 20px;
   bottom: 20px;
@@ -899,19 +899,19 @@ i {
   background: linear-gradient(141deg, rgb(79, 185, 225) 0%, rgb(64, 191, 128) 100%);
 }
 #container #main-visual .inner.eng-menu-wrap .eng-menu-box ul li:nth-child(2):after {
-  background: url("/img/ico-color-bg02.png") no-repeat top center/contain;
+  background: url("../img/ico-color-bg02.png") no-repeat top center/contain;
 }
 #container #main-visual .inner.eng-menu-wrap .eng-menu-box ul li:nth-child(3) {
   background: linear-gradient(141deg, rgb(164, 91, 235) 0%, rgb(109, 155, 235) 100%);
 }
 #container #main-visual .inner.eng-menu-wrap .eng-menu-box ul li:nth-child(3):after {
-  background: url("/img/ico-color-bg03.png") no-repeat top center/contain;
+  background: url("../img/ico-color-bg03.png") no-repeat top center/contain;
 }
 #container #main-visual .inner.eng-menu-wrap .eng-menu-box ul li:nth-child(4) {
   background: linear-gradient(141deg, rgb(243, 199, 80) 0%, rgb(226, 122, 53) 100%);
 }
 #container #main-visual .inner.eng-menu-wrap .eng-menu-box ul li:nth-child(4):after {
-  background: url("/img/ico-color-bg04.png") no-repeat top center/contain;
+  background: url("../img/ico-color-bg04.png") no-repeat top center/contain;
 }
 #container #main-visual .inner.eng-menu-wrap .eng-menu-box ul li a {
   width: 100%;
@@ -987,7 +987,7 @@ i {
   font-size: 1.25rem;
   color: #fff;
   font-weight: 800;
-  background: url("/img/title_bg.png") no-repeat;
+  background: url("../img/title_bg.png") no-repeat;
   width: 240px;
   background-size: 250px 50px;
   line-height: 2;
@@ -1404,7 +1404,7 @@ i {
 #container #why {
   margin-top: 80px;
   padding: 80px 0;
-  background: url("/img/why-bg.png") no-repeat center center/cover;
+  background: url("../img/why-bg.png") no-repeat center center/cover;
   height: 740px;
 }
 #container #why.eng-why p {
