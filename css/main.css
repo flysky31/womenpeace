@@ -1058,7 +1058,7 @@ i {
   width:90px;
 }
 #container #speak .swiper .swiper-container .swiper-slide .txt strong > span{
-  width:100%;
+  width:auto;
   text-align:left;
 }
 @media (max-width: 768px) {
