@@ -1055,6 +1055,11 @@ i {
   color: #6F4498;
   position: relative;
   padding: 0 30px 0 0;
+  width:90px;
+}
+#container #speak .swiper .swiper-container .swiper-slide .txt strong > span{
+  width:100%;
+  text-align:left;
 }
 @media (max-width: 768px) {
   #container #speak .swiper .swiper-container .swiper-slide .txt strong > b {
