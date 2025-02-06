@@ -116,7 +116,7 @@ font-family: 'Montserrat', sans-serif;
 }
 #wrap #headerArea .headerInner .logo a{
    display: block;
-    background: url('/img/logo2.png') no-repeat center;
+    background: url('../img/logo2.png') no-repeat center;
     width: 252px;
     height: 95px;
     overflow: hidden;
@@ -280,10 +280,10 @@ font-family: 'Montserrat', sans-serif;
  padding-right: 10px;
 }
 .ver_box a:first-of-type{
-    background:url('/img/et1.png') no-repeat 0 50%;
+    background:url('../img/et1.png') no-repeat 0 50%;
 }
 header:hover .ver_box a:first-of-type{
-    background:url('/img/et.png') no-repeat 0 50%;
+    background:url('../img/et.png') no-repeat 0 50%;
 }
 .ver_box a:first-of-type:after{
     content:'';
