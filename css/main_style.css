@@ -1,0 +1,643 @@
+/*모바일 비주얼*/
+.visual_area .visual img:nth-child(2){
+    display: none;
+}
+@media screen and (max-width:640px){
+    .visual_area .visual img:first-child{
+        display: none;
+    }
+    .visual_area .visual img:nth-child(2){
+        display: block;
+        height:300px;
+    }
+}
+
+
+.visual_area{
+    position: relative;
+    background: url("../img/visual_area_bg.jpg")no-repeat center/cover;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 0 0;
+    align-items: center;
+}
+@media (max-width:768px) {
+    .visual_area{
+        height: 300px;
+    }
+    
+}
+.visual_area .visual img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.visual_area::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    /*background: rgba(0,0,0,.1);*/
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1
+}
+.visual_area .visual{
+    position: relative;
+}
+.visual_area h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #fff;
+}
+.visual_area h3{
+    font-weight: 800;
+    font-size: 4rem;
+    color: #fff;
+}
+.visual_area p{
+    font-size: 1.875rem;
+    color: #fff;
+    margin: 20px 0 0;
+}
+
+@media (max-width:1280px) {
+    .visual_area h2{
+        font-size: 1.8rem;
+      
+    }
+    .visual_area h3{
+    
+        font-size: 2.5rem;
+ 
+    }
+    .visual_area p{
+        font-size: 1.5rem;
+      
+    }
+}
+
+@media (max-width:768px) {
+    .visual_area p{
+        margin: 0;
+    }
+}
+
+@media (max-width:480px) {
+    .visual_area h2{
+        font-size: 1.2rem;
+      
+    }
+    .visual_area h3{
+    
+        font-size:1.8rem;
+ 
+    }
+    .visual_area p{
+        font-size: 1.1rem;
+      
+    }
+}
+
+
+.visual_area .visual .txt_box{
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    left: 0;
+    text-align: center;
+    color: #fff;
+}
+.visual_area .visual .txt_box p:first-of-type{
+    font-weight: 700;
+    font-size: 4.25em;
+    margin-bottom: 70px
+}
+.visual_area .visual .txt_box p:first-of-type strong{
+    display: block;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: .618em;
+}
+.visual_area .visual .txt_box p:first-of-type span{
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: .618em;
+}
+.visual_area .visual .txt_box p:last-of-type{
+    font-size: 2.75em;
+    font-weight: 700;
+    position: relative
+}
+.visual_area .visual .txt_box p:last-of-type::after{
+    content: '';
+    display: block;
+    width: 624px;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    margin-left: -312px;
+    top: -30px;
+}
+.visual_area .visual .txt_box p:last-of-type::before{
+    content: '';
+    display: block;
+    width: 624px;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    margin-left: -312px;
+    bottom: -30px;
+}
+.visual_area .visual .txt_box p:last-of-type span{
+    display: block;
+    font-size: .614em;
+    color: #ffbd00;
+}
+.visual_area .visual .txt_box p:last-of-type span:last-child{
+    margin-left:-7px;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets{
+    bottom: 5.5%;
+}
+.swiper-pagination-bullet{
+    background: rgba(255,255,255,.5)
+}
+.swiper-pagination-bullet-active{
+    background: none;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+}
+.visual_area .slide_btn{
+    display: block;
+    width: 50px;
+    height: 80px;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 50%;
+    margin-top: -40px;
+    z-index: 3;
+    cursor: pointer
+}
+.visual_area .prev{
+    background: url(../img/prev.png) no-repeat center rgba(0,0,0,.5);
+    left: 0
+}
+.visual_area .next{
+    background: url(../img/next.png) no-repeat center rgba(0,0,0,.5);
+    right: 0
+}
+#contentArea section h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.625em;
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    
+}
+/*****************************************************************
+resgistration
+*****************************************************************/
+#contentArea .registration{
+    padding: 50px 0;
+    background: url(../img/banner_bg.jpg) no-repeat center;
+    background-size: cover;
+}
+#contentArea .registration .registration_inner{
+    width: 1280px;
+    margin: 0 auto;
+    position: relative
+}
+#contentArea .registration h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.75em;
+    color: #ffbd00;
+    text-align: left
+}
+#contentArea .registration p{
+    font-size: 1.375em;
+    color: #fff;
+    font-weight: 300
+}
+#contentArea .registration .btn_box{
+    width: 420px;
+    position: absolute;
+    right: -20px;
+    bottom: -10px;
+    overflow: hidden;
+    padding-bottom: 10px
+}
+#contentArea .registration .btn_box a{
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+    background: #fff;
+    color: #2a86bf;
+    font-size: 1.125em;
+    font-weight: 700;
+    box-shadow: 3px 3px 7px rgba(0,0,0,.3);
+    width: 200px;
+    float: left
+}
+#contentArea .registration .btn_box .request{
+    margin-right: 10px
+}
+/*****************************************************************
+information
+*****************************************************************/
+#contentArea .information{
+    margin-bottom: 100px
+}
+#contentArea .information ul{
+    overflow: hidden
+}
+#contentArea .information ul li{
+    float: left;
+    width: 20%;
+}
+#contentArea .information ul li a{
+    display: block;
+    padding: 55px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 1.25em;
+    font-weight: 500;
+    background: #b9862c
+}
+#contentArea .information ul li a img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+#contentArea .information ul li:nth-of-type(2) a{
+    background: #7d903a
+}
+#contentArea .information ul li:nth-of-type(3) a{
+    background: #616c7c
+}
+#contentArea .information ul li:nth-of-type(4) a{
+    background: #4d738c
+}
+#contentArea .information ul li:nth-of-type(5) a{
+    background: #9d765a
+}
+/*****************************************************************
+speaker
+*****************************************************************/
+#contentArea .speaker{
+    width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    padding-top: 80px;    
+}
+#contentArea .speaker h3{
+    margin-bottom: 50px
+}
+#contentArea .speaker .session1{
+    margin-bottom: 50px
+}
+#contentArea .speaker div p{
+    font-size: 1.25em;
+    font-weight: 500;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    position: relative
+}
+#contentArea .speaker div p::after{
+    content: '';
+    display: block;
+    width: 3px;
+    height: 20px;
+    background: #2a86bf;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -10px
+}
+#contentArea .speaker ul{
+    overflow: hidden;
+}
+#contentArea .speaker ul li{
+    float: left;
+    width: calc(25% - 15px);
+    margin-right: 20px;
+    box-sizing: border-box;
+    /* border: 1px solid #ddd */
+}
+#contentArea .speaker ul li:last-of-type{
+    margin-right: 0
+}
+#contentArea .speaker ul li a{
+    display: block;
+}
+#contentArea .speaker ul li a img{
+    width: 100%;
+}
+#contentArea .speaker ul li a dl{
+    /* padding: 30px 0; */
+    padding-top: 20px;
+    text-align: center;
+}
+#contentArea .speaker ul li a dl dd{
+    height: 48px;
+}
+#contentArea .speaker ul li a dl dt{
+    font-size: 1.25em;
+    font-weight: 700;
+    /* margin-bottom: 6px */
+}
+#contentArea .speaker ul li a dl dd{
+    font-size: 1.063em;
+    font-weight: 300
+}
+#contentArea .speaker ul li a dl dd:first-of-type{
+    margin-bottom: 20px;
+    font-weight: bold;;
+    font-size: 16px;
+}
+#contentArea .speaker ul li a dl dd:last-of-type{
+    width: 100%;
+    background: #0066a5;
+    color: #fff;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 40px;
+}
+/*****************************************************************
+attend
+*****************************************************************/
+#contentArea .attend{
+    padding: 100px 0;
+    background: url(../img/attend_bg.jpg) no-repeat center;
+    background-size: cover;
+}
+#contentArea .attend h3{
+    position: relative;
+    margin-bottom: 80px;
+}
+#contentArea .attend h3::after{
+    content: '';
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #2a86bf;
+    position: absolute;
+    left: 50%;
+    margin-left: -20px;
+    bottom: -20px;
+}
+#contentArea .attend div{
+    width: 1200px;
+    margin: 0 auto;
+    background: #ffffff63;
+    padding: 55px 0;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+#contentArea .attend div p:first-of-type{
+    font-weight: 700;
+    color: #4c4c4c;
+    font-size: 1.375em;
+    margin-bottom: 30px
+}
+@media (max-width:768px) {
+    #contentArea .attend div p:first-of-type{
+        font-size: 16px;
+        text-align: center;
+    }
+    
+}
+#contentArea .attend div p:last-of-type{
+     color: #4c4c4c;
+    font-size: 1.375em;
+    margin-bottom: 40px;
+    line-height: 1.7em
+}
+#contentArea .attend div a{
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background: #2a86bf;
+    color: #fff;
+    text-align: center;
+    color: #fff;
+    font-size: 1.125em;
+    font-weight: 500;
+    padding: 5px 0;
+}
+/*****************************************************************
+일반pc
+*****************************************************************/
+@media screen and (max-width:1280px){
+    /*registration*/
+    #contentArea .registration .registration_inner{
+        width: 96%
+    }
+    #contentArea .registration .btn_box{
+        width: 320px;
+    }
+    #contentArea .registration .btn_box a{
+        width: 150px;
+    }
+    /*speaker*/
+    #contentArea .speaker{
+        width: 96%;
+    }
+}
+/*****************************************************************
+테블릿
+*****************************************************************/
+@media screen and (max-width:1024px){
+    /*registration*/
+    #contentArea .registration .btn_box{
+        position: static;
+        margin-top: 20px
+    }
+    /*attend*/
+    #contentArea .attend div{
+        width: 96%;
+    }
+}
+/*****************************************************************
+소형테블릿
+*****************************************************************/
+@media screen and (max-width:768px){
+    .visual_area img{
+        width: 100%;
+        height: 350px
+    }
+    .visual_area .visual .txt_box{
+        top: 128px;
+    }
+    .visual_area .visual .txt_box p:first-of-type{
+        font-size: 2em;
+        margin-bottom: 20px
+    }
+    .visual_area .visual .txt_box p:last-of-type{
+        font-size: 1.125em;
+    }
+    .visual_area .visual .txt_box p:last-of-type::after{
+        width: 30%;
+        margin-left: -15%;
+        top: -10px
+    }
+    .visual_area .visual .txt_box p:last-of-type::before{
+        width: 30%;
+        margin-left: -15%;
+        bottom: -10px
+    }
+    .swiper-container-horizontal>.swiper-pagination-bullets{
+        bottom:1%
+    }
+    /*registration*/
+    #contentArea .registration{
+        padding: 10px 0;
+    }
+    /*speaker*/
+    #contentArea .speaker ul li{
+        width: calc(50% - 10px);
+        margin-right: 0;
+        margin-bottom: 20px
+    }
+    #contentArea .speaker ul li:nth-of-type(odd){
+        margin-right: 20px;
+    }
+}
+/*****************************************************************
+모바일
+*****************************************************************/
+@media screen and (max-width:640px){
+    .visual_area .visual .txt_box{
+        top: 115px
+    }
+    .visual_area img{
+        height: 300px
+    }
+    .visual_area .slide_btn{
+        display: none
+    }
+    /*registration*/
+    #contentArea .registration .btn_box{
+        width: auto
+    }
+    #contentArea .registration .btn_box a{
+        width: 49%;
+    }
+    #contentArea .registration .btn_box .request{
+        margin-right: 2%
+    }
+    /*information*/
+    #contentArea .information{
+        margin-bottom: 50px
+    }
+    #contentArea .information ul li{
+        width: 33.33%;
+    }
+    #contentArea .information ul li a{
+        padding: 20px 0;
+    }
+    #contentArea .information ul li:nth-of-type(4), #contentArea .information ul li:nth-of-type(5){
+        width: 50%;
+    }
+    /*speaker*/
+    /*#contentArea .speaker ul li{
+        float: none;
+        width: auto;
+        margin-bottom: 10px
+    }
+    #contentArea .speaker ul li:nth-of-type(odd){
+        margin-right: 0;
+    }*/
+    #contentArea .speaker ul li{
+        width: calc(50% - 5px)
+    }
+    #contentArea .speaker ul li:nth-of-type(odd){
+        margin-right: 10px
+    }
+    #contentArea .speaker ul li a dl{
+        /* padding: 15px 0; */
+        font-size: 14px;
+    }
+    #contentArea .speaker ul li a dl dt{
+        /* margin-bottom: 5px */
+        white-space: nowrap;
+    }
+    #contentArea .speaker ul li a dl dd:first-of-type{
+        margin-bottom: 15px;
+        letter-spacing: -1px;
+        font-size: 1em
+    }
+    @media (max-width:640px) {
+        #contentArea .speaker ul li a dl dd:first-of-type{
+            font-size: 14px;
+            white-space:nowrap;
+        }
+    }
+    /*attend*/
+    #contentArea .attend{
+        padding: 50px 0;
+    }
+    #contentArea .attend div{
+        padding: 20px 0;
+    }
+    
+    
+    
+    #contentArea .registration h3{
+        text-align: center;
+        font-size:20px;
+    }
+    #contentArea .registration p{
+        text-align: center;
+        font-size:16px;
+    }
+    #contentArea .registration .btn_box a{
+        padding:6px 0;
+    }
+    #contentArea .information ul li a{
+        font-size:16px;
+    }
+    #contentArea .information ul li a img{
+        height:40px;
+    }
+    #contentArea .attend h3{
+        font-size:24px;
+    }
+    #contentArea .attend div p:last-of-type{
+        font-size:14px;
+    }
+}
+#showimage{
+    z-index:40;
+    position:absolute;
+    width:700px;
+    left:10px;
+    top:140px
+}
+#showimage div img{
+    width: 100%;
+}
+@media screen and (max-width:1024px){
+    #showimage{
+        width: 96%;
+        left: 2%;
+    }
+}
+@media screen and (max-width:640px){
+    #showimage{
+        top: 100px;
+    }
+}
