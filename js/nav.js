@@ -62,11 +62,11 @@ $(document).ready(function(){
 
         if(sctop > 30){
             $('header').addClass('scroll');
-            $('.logo a').css('background','url("/img/logo2.png") no-repeat center');
+         //   $('.logo a').css('background','url("/img/logo2.png") no-repeat center');
             $('.ver_box a').css('color','#1a3571');
         }else{
             $('header').removeClass('scroll');
-            $('.logo a').css('background','url("/img/logo2.png") no-repeat center');
+       //     $('.logo a').css('background','url("/img/logo2.png") no-repeat center');
         $('.ver_box a').css('color','#fff');
         }
     })
