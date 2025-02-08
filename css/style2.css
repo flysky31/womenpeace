@@ -600,10 +600,12 @@
     display: block;
     padding: 30px 0;
     border-radius: 0 0 15px 15px;
+    word-break: keep-all;
 }
 .sub-wrap .tab-content .title strong{
     font-size: 1.5rem;
-    
+    display: flex;
+    align-items: baseline;
 }
 .sub-wrap .tab-content .title h2,
 .sub-wrap .tab-content .title h3{
