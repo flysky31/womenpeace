@@ -12,30 +12,7 @@
     display: block;
     clear: both
 }
-/*
-.main-img-box:before{
-  z-index: -1;
-  position: absolute;
-  content: "";
-  top: -30px;
-  left: 0px;
-  width:calc(100% - 20px);
-  background: #000;
-  box-shadow: 10px 5px 15px #000;
-}
-.main-img-box:after{여기서 집중!!!
-  z-index: -1;
-  position: absolute;
-  content: "";
-  bottom: 0px;
-  left: 20px;
-  width:calc(100% - 40px);
-  top: 80%;
-  background: #000;
-  box-shadow: 1px -5px 15px #000;
-  transform: rotate(180deg);
-}
-*/
+
 .program-img {
     text-align: center;
     padding:50px 0;
@@ -2144,7 +2121,9 @@ transition:all .3s ease-in;
     color: #fff;
     padding: 10px 10px;
     width: 145px;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
  
     border-radius: 15px;
