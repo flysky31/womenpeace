@@ -8,7 +8,7 @@ $(document).ready(function(){
 
     //nav
     $('header').mouseover(function(){
-        $('.logo a').css('background','url("/img/logo2.png") no-repeat center');
+        $('.logo a').css('background','url("../img/logo2.png") no-repeat center');
         $('.ver_box a').css('color','#1a3571');
     }).mouseout(function(){
         // $('.logo a').css('background','url(../img/logo.png) no-repeat center');
